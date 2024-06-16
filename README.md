@@ -13,8 +13,8 @@ This is a simple Todo app backend using Node.js and Express.js with PostgreSQL f
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/todo-app.git
-    cd todo-app
+    git clone https://github.com/imsiddhants/todo.git
+    cd todo
     ```
 
 2. Install dependencies:
@@ -25,7 +25,7 @@ This is a simple Todo app backend using Node.js and Express.js with PostgreSQL f
 3. Create a `.env` file in the root directory and add the following:
     ```env
     PORT=3000
-    DATABASE_URL=postgresql://username:password@localhost:5432/todoapp
+    DATABASE_URL=postgresql://username:password@localhost:5432/todo
     JWT_SECRET=your_jwt_secret
     EMAIL_USER=your_email@gmail.com
     EMAIL_PASS=your_email_password
